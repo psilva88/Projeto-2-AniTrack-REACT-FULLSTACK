@@ -228,7 +228,7 @@ O projeto tem duas partes que rodam ao mesmo tempo: o **backend** (API) e o **fr
 
 > Ou, se preferir usar o **Git** pelo terminal:
 > ```bash
-> git clone https://github.com/psilva88/anitrack.git
+> git clone https://github.com/psilva88/Projeto-2-AniTrack-REACT-FULLSTACK.git
 > ```
 
 ### 💻 Passo 2 — Abrir no VS Code
