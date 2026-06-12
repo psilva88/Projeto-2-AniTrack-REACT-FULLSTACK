@@ -220,26 +220,50 @@ O projeto tem duas partes que rodam ao mesmo tempo: o **backend** (API) e o **fr
 - [VS Code](https://code.visualstudio.com/) instalado
 - Conta no [MongoDB Atlas](https://www.mongodb.com/atlas) (gratuita)
 
-### 🗄️ Configuração do Banco (MongoDB Atlas)
+### 📥 Passo 1 — Baixar o código pelo GitHub
+- Acesse o repositório no GitHub
+- Clique no botão verde **`<> Code`**
+- Clique em **Download ZIP**
+- Extraia o arquivo ZIP baixado
+
+> Ou, se preferir usar o **Git** pelo terminal:
+> ```bash
+> git clone https://github.com/psilva88/anitrack.git
+> ```
+
+### 💻 Passo 2 — Abrir no VS Code
+- Abra o VS Code
+- Vá em **File → Open Folder**
+- Selecione a pasta `AniTrack` que foi extraída (a que contém as pastas `anitrack_backend` e `anitrack_frontend`)
+
+### 🗄️ Passo 3 — Configurar o Banco (MongoDB Atlas)
 1. Crie uma conta no MongoDB Atlas e um cluster gratuito (M0)
 2. Crie um usuário do banco e libere o acesso de rede (`0.0.0.0/0`)
 3. Copie a connection string e cole no arquivo `.env` do backend, no campo `MONGO_URI`
 
-### 🖥️ Terminal 1 — Backend
+### 🖥️ Passo 4 — Rodar o Backend (Terminal 1)
+No VS Code, abra o terminal (`Ctrl + '`) e digite, **substituindo `SeuUsuario` pelo seu nome de usuário**:
+
 ```bash
-cd anitrack_backend ou cd C:\Users\SeuUsuario\Downloads\anitrack_backend
+cd C:\Users\SeuUsuario\Downloads\anitrack_backend
 npm install          # apenas na primeira vez
 npm run seed         # (opcional) cria usuários e dados de exemplo
 npm run dev
 ```
+
+> 💡 Exemplo: `cd C:\Users\Arthur\Downloads\anitrack_backend`
+
 Deve aparecer: `✅ MongoDB Atlas conectado!` e `🚀 Servidor rodando na porta 3000`
 
-### 🖥️ Terminal 2 — Frontend
+### 🖥️ Passo 5 — Rodar o Frontend (Terminal 2)
+Abra um **segundo terminal** (deixe o backend rodando) e digite:
+
 ```bash
-cd anitrack_frontend ou cd C:\Users\SeuUsuario\Downloads\anitrack_frontend
+cd C:\Users\SeuUsuario\Downloads\anitrack_frontend
 npm install          # apenas na primeira vez
 npm start
 ```
+
 > Quando perguntar sobre rodar em outra porta, responda **`Y`** (o backend já usa a 3000).
 
 O frontend abrirá automaticamente em [http://localhost:3001](http://localhost:3001).
