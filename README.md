@@ -227,7 +227,7 @@ O projeto tem duas partes que rodam ao mesmo tempo: o **backend** (API) e o **fr
 
 ### 🖥️ Terminal 1 — Backend
 ```bash
-cd anitrack_backend ou cd C:\Users\XXXXX\Downloads\anitrack_backend
+cd anitrack_backend ou cd C:\Users\SeuUsuario\Downloads\anitrack_backend
 npm install          # apenas na primeira vez
 npm run seed         # (opcional) cria usuários e dados de exemplo
 npm run dev
@@ -236,7 +236,7 @@ Deve aparecer: `✅ MongoDB Atlas conectado!` e `🚀 Servidor rodando na porta 
 
 ### 🖥️ Terminal 2 — Frontend
 ```bash
-cd anitrack_frontend ou cd C:\Users\XXXXX\Downloads\anitrack_frontend
+cd anitrack_frontend ou cd C:\Users\SeuUsuario\Downloads\anitrack_frontend
 npm install          # apenas na primeira vez
 npm start
 ```
