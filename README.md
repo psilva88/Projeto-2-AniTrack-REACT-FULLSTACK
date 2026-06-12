@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/24bdd29e-a6bf-41c1-9f1e-4a3b90592e32" alt="AniTrack Logo" width="400"/>
+  <img src="https://github.com/user-attachments/assets/18770a10-ca78-4628-a203-70790f7d3354" alt="AniTrack Logo" width="400"/>
 </p>
 <p align="center">
   Seu catálogo pessoal de animes. Acompanhe episódios, marque favoritos e organize sua jornada.
