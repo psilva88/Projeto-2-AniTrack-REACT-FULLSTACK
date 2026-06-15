@@ -218,7 +218,7 @@ O projeto tem duas partes que rodam ao mesmo tempo: o **backend** (API) e o **fr
 ### Pré-requisitos
 - [Node.js](https://nodejs.org/) instalado
 - [VS Code](https://code.visualstudio.com/) instalado
-- Conta no [MongoDB Atlas](https://www.mongodb.com/atlas) (gratuita)
+- Conta no [MongoDB Atlas](https://www.mongodb.com/atlas)
 
 ### 📥 Passo 1 — Baixar o código pelo GitHub
 - Acesse o repositório no GitHub
