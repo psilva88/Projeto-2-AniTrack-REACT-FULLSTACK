@@ -1,0 +1,6 @@
+PORT=3000
+
+MONGO_URI=mongodb+srv://Arthur:unifacisa88@banana8.gf9qu3r.mongodb.net/anitrack?appName=Banana8
+
+JWT_SECRET=anitrack_chave_secreta_super_forte_2026_unifacisa
+JWT_EXPIRES_IN=1h
