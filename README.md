@@ -184,7 +184,7 @@ AniTrack/
 ## 🖥️ Explicação das Telas
 
 ### 🔐 Login (`/`)
-Tela inicial. O usuário entra com e-mail e senha (autenticação real via API), ou continua como visitante. Mostra mensagens de erro vindas do backend (ex: "Credenciais inválidas").
+Tela inicial. O usuário entra com e-mail e senha (autenticação real via API), cria uma conta nova ou continua como visitante. Mostra mensagens de erro vindas do backend (ex: "Credenciais inválidas").
 
 ### 📝 Cadastro (`/cadastro`)
 Cria uma conta de verdade no banco de dados, com a senha criptografada. Após o cadastro, o usuário já entra logado.
