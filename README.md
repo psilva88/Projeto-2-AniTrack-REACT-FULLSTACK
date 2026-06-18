@@ -74,7 +74,7 @@ O sistema possui **duas entidades relacionadas**: `Usuário` e `Anime`.
 | nome | String | Obrigatório |
 | totalEps | Number | Obrigatório |
 | assistidos | Number | Padrão: 0 |
-| status | String |Planejando / Assistindo / Pausado / Finalizado |
+| status | String | Planejando / Assistindo / Pausado / Finalizado |
 | favorito | Boolean | Padrão: false |
 | capa | String | URL da imagem |
 | **usuario** | ObjectId | **Referência ao Usuário dono** |
